@@ -48,3 +48,16 @@ p {
   font-family: var(--poppins);
   font-weight: normal;
 }
+
+div .row {
+  padding: 50px 0;
+}
+
+div .col-6 a {
+  display: block;
+  text-align: center;
+}
+
+.btn-branding {
+  background-color: rgba(255, 231, 241, 1);
+}
