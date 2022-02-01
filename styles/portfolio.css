@@ -62,4 +62,5 @@ div .col-6 a {
 
 .btn-branding {
   background-color: rgba(255, 231, 241, 1);
+  max-width: 200px;
 }
