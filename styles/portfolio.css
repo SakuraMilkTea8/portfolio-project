@@ -66,6 +66,7 @@ div #picture-row {
 }
 
 .btn-branding {
+  font-family: var(--poppins);
   color: rgba(0, 0, 0, 0.7);
   background-color: rgba(255, 231, 241, 1);
   max-width: 200px;
@@ -99,6 +100,11 @@ footer {
 
 .footer-link:hover {
   color: rgba(255, 204, 224, 1);
+}
+
+.footer-note {
+  font-size: 15px;
+  margin-top: 30px;
 }
 
 @media (max-width: 770px) {
