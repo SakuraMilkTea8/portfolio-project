@@ -66,15 +66,39 @@ div #picture-row {
 }
 
 .btn-branding {
+  color: rgba(0, 0, 0, 0.7);
   background-color: rgba(255, 231, 241, 1);
   max-width: 200px;
   margin: 0 auto;
+  display: block;
+}
+
+.btn-branding:hover {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .selfie {
   max-width: 400px;
   margin: 0 auto;
   display: block;
+}
+
+.contact-me {
+  text-align: center;
+}
+
+footer {
+  margin-top: 80px;
+}
+
+.footer-link {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 30px;
+  padding: 0 10px 0 10px;
+}
+
+.footer-link:hover {
+  color: rgba(255, 204, 224, 1);
 }
 
 @media (max-width: 770px) {
