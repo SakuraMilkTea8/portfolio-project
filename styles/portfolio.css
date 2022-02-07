@@ -108,7 +108,24 @@ footer {
 }
 
 @media (max-width: 770px) {
-  body {
-    background-color: blue;
+  .hero {
+    padding: 100px 0px 90px 0px;
+  }
+
+  .col-md-6 {
+    margin: 15px 0 15px 0;
+  }
+
+  footer {
+    margin-top: 0;
+  }
+
+  .footer-note {
+    font-size: 10px;
+  }
+
+  h2,
+  p {
+    text-align: center;
   }
 }
