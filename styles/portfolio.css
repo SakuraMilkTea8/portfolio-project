@@ -66,6 +66,10 @@ div #picture-row {
   padding: none;
 }
 
+.picture-margintop {
+  margin-top: 75px;
+}
+
 .btn-branding {
   font-family: var(--poppins);
   color: rgba(0, 0, 0, 0.7);
@@ -77,6 +81,10 @@ div #picture-row {
 
 .btn-branding:hover {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.backstory {
+  text-align: center;
 }
 
 .selfie {
@@ -129,5 +137,13 @@ footer {
 
   .btn-branding {
     margin-top: 15px;
+  }
+
+  .picture-margintop {
+    margin-top: 0px;
+  }
+
+  .selfie {
+    max-width: 360px;
   }
 }
